@@ -19,16 +19,64 @@ a:hover {
 	color: blue;
 }
 
+header {
+	position: fixed;
+	border-bottom: 1px solid black;
+	width: 100%;
+	background: white;
+}
+.logo {
+	font-size: 36px;
+	color: black;
+	float: left;
+	text-transform: uppercase;
+	padding: 0 0 0 20px;
+}
+header ul {
+	list-style-type: none;
+	padding: 0;
+	float: right;
+	padding: 0 20px 0 0;
+	margin: 26px 0 0 0;
+}
+header ul a {
+	color: blue;
+	font-size: 24px;
+	text-decoration: none;
+}
+header ul li {
+	float: left;
+	margin: 0 24px 0 0;
+	text-transform: uppercase;
+}
+
+#container {
+	padding: 80px 0 0 0;
+	margin: 0 auto;
+	width: 80%;
+	border: 1px solid black;
+}
 
 .main-content {
-	
+	width: 46%;
+	float: left;
+	padding: 20px;
+}
+.main-content h1 {
+	color: blue;
+	padding: 0 20px;
+	margin: 0 auto;
 }
 .sidebar {
-	
+	width: 46%;
+	float: right;
+	padding: 20px;
 }
-header {
-	
-}
+
 footer {
-	
+	clear: both;
+	border-top: 1px solid black;
 }
+
+
+
