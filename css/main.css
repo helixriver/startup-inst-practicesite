@@ -63,12 +63,9 @@ header ul li {
 .main-content {
 	width: 46%;
 	float: left;
-	padding: 20px;
 }
-.main-content h1 {
-	color: blue;
+.main-content h1, .main-content p, .main-content img {
 	padding: 0 20px;
-	margin: 0 auto;
 }
 .sidebar {
 	width: 46%;
@@ -79,6 +76,7 @@ header ul li {
 footer {
 	clear: both;
 	border-top: 1px solid black;
+	padding: 20px;
 }
 
 
